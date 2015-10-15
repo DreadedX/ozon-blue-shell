@@ -21,7 +21,7 @@
 
 /* default text style */
 stage {
-    font-family: Fira Sans;
+    font-family: Segoe UI;
     font-size: 10pt;
     color: #eee;
 }
@@ -174,7 +174,7 @@ StScrollBar StButton#hhandle:active {
 .candidate-popup-boxpointer {
     -arrow-border-radius: 3px;
     -arrow-border-width: 0;
-    -arrow-background-color: #272b30;
+    -arrow-background-color: #31363d;
     -arrow-base: 21px;
     -arrow-rise: 9px;
 
@@ -195,7 +195,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-submenu-menu-item:open {
-    background-color: #272b30;
+    background-color: #31363d;
 }
 
 .popup-sub-menu {
@@ -348,7 +348,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .nm-dialog-scroll-view {
-    border: 1px solid #272b30;
+    border: 1px solid #31363d;
     border-radius: 3px;
 }
 
@@ -358,7 +358,7 @@ StScrollBar StButton#hhandle:active {
 
 .nm-dialog-item {
     font-size: 12pt;
-    border-bottom: 1px solid #272b30;
+    border-bottom: 1px solid #31363d;
     padding: 12px;
     spacing: 20px;
 }
@@ -545,7 +545,7 @@ StScrollBar StButton#hhandle:active {
 .login-dialog StEntry,
 .run-dialog-entry,
 .notification StEntry {
-    color: #272b30;
+    color: #31363d;
     background-image: none;
     background-gradient-direction: none;
     background-color: #eee;
@@ -559,7 +559,7 @@ StScrollBar StButton#hhandle:active {
 .login-dialog StEntry:focus,
 .notification StEntry:focus,
 .modal-dialog StEntry {
-    color: #272b30;
+    color: #31363d;
     background-image: none;
     background-gradient-direction: none;
     background-color: #eee;
@@ -621,8 +621,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
-    border-color: #272b30;
+    background-color: #31363d;
+    border-color: #31363d;
     border-bottom-width: 0;
     font-weight: bold;
     height: 2.1em;
@@ -818,7 +818,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     border-radius: 32px; /* wish we could do 50% */
     padding: 13px;
-    border: 1px solid #272b30; /* using rgba() is flaky unfortunately */
+    border: 1px solid #31363d; /* using rgba() is flaky unfortunately */
 }
 
 .system-menu-action:hover,
@@ -888,14 +888,14 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
-    border: 1px solid #272b30;
+    background-color: #31363d;
+    border: 1px solid #31363d;
     border-radius: 3px;
     padding: 2px 12px;
 }
 
 .window-caption:hover {
-    border: 1px solid #272b30;
+    border: 1px solid #31363d;
 }
 
 .window-close, .notification-close {
@@ -990,7 +990,7 @@ StScrollBar StButton#hhandle:active {
     font-size: 10pt;
     padding: 4px 0;
     background-image: none;
-    background-color: #272b30;
+    background-color: #31363d;
     border: none;
     border-radius: 3px 3px 0 0;
     transition-duration:500ms;
@@ -1102,8 +1102,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
-    border: 1px solid #272b30;
+    background-color: #31363d;
+    border: 1px solid #31363d;
     border-radius: 3px;
     padding: 2px 12px;
     text-align: center;
@@ -1233,8 +1233,8 @@ StScrollBar StButton#hhandle:active {
 .app-folder-popup {
     -arrow-border-radius: 3px;
     -arrow-border-width: 0;
-    -arrow-background-color: #272b30;
-    -arrow-border-color: #272b30;
+    -arrow-background-color: #31363d;
+    -arrow-border-color: #31363d;
     -arrow-base: 21px;
     -arrow-rise: 9px;
 
@@ -1259,7 +1259,7 @@ StScrollBar StButton#hhandle:active {
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(0,6,5,0);
-    border-color: #272b30;
+    border-color: #31363d;
     text-shadow: none;
 }
 
@@ -1717,7 +1717,7 @@ StScrollBar StButton#hhandle:active {
     border-radius: 3px 3px 0 0;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
+    background-color: #31363d;
     border: none;
     border-bottom: 0;
     padding: 8px 8px 4px 8px;
@@ -1753,8 +1753,8 @@ StScrollBar StButton#hhandle:active {
     -arrow-border-radius: 3px;
     -arrow-border-width: 0;
     -boxpointer-gap: 6px;
-    -arrow-background-color: #272b30;
-    -arrow-border-color: #272b30;
+    -arrow-background-color: #31363d;
+    -arrow-border-color: #31363d;
     -arrow-base: 21px;
     -arrow-rise: 9px;
 
@@ -2011,7 +2011,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
+    background-color: #31363d;
 }
 
 /* App Switcher */
@@ -2025,7 +2025,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
+    background-color: #31363d;
     border: none;
     border-radius: 3px;
     padding: 20px;
@@ -2119,7 +2119,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
+    background-color: #31363d;
     border: none;
     border-radius: 3px;
     padding: 20px;
@@ -2193,7 +2193,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
+    background-color: #31363d;
     border: none;
     padding-right: 20px;
     padding-left: 20px;
@@ -2514,8 +2514,8 @@ StScrollBar StButton#hhandle:active {
 #keyboard {
     background-image: none;
     background-gradient-direction: none;
-    background-color: #272b30;
-    border-color: #272b30;
+    background-color: #31363d;
+    border-color: #31363d;
     border-top-width: 1px;
 }
 
@@ -2568,8 +2568,8 @@ StScrollBar StButton#hhandle:active {
     -arrow-border-radius: 3px;
     -arrow-border-width: 0;
     -boxpointer-gap: 6px;
-    -arrow-background-color: #272b30;
-    -arrow-border-color: #272b30;
+    -arrow-background-color: #31363d;
+    -arrow-border-color: #31363d;
     -arrow-base: 21px;
     -arrow-rise: 9px;
 
