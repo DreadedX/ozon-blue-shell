@@ -90,15 +90,15 @@ StScrollBar StButton#vhandle {
 StScrollBar StButton#vhandle:hover {
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 StScrollBar StButton#vhandle:active {
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 StScrollBar StButton#hhandle {
@@ -114,15 +114,15 @@ StScrollBar StButton#hhandle {
 StScrollBar StButton#hhandle:hover {
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 StScrollBar StButton#hhandle:active {
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 /* Check Boxes */
@@ -174,7 +174,7 @@ StScrollBar StButton#hhandle:active {
 .candidate-popup-boxpointer {
     -arrow-border-radius: 4px;
     -arrow-border-width: 0;
-    -arrow-background-color: #31363d;
+    -arrow-background-color: #2e333a;
     -arrow-base: 21px;
     -arrow-rise: 9px;
 
@@ -253,8 +253,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .popup-menu-item:insensitive {
@@ -310,7 +310,7 @@ StScrollBar StButton#hhandle:active {
 .toggle-switch-intl:checked {
     background-image: url("toggle-on.png");
     background-size: contain;
-    background-color: #13b1d5;
+    background-color: #199ab7;
 }
 
 /* Network */
@@ -402,7 +402,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
     border: none;
     border-image: none;
     box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .32);
@@ -416,7 +416,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
     border: none;
     border-image: none;
     box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .32);
@@ -430,8 +430,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .notification-button:focus:active,
@@ -442,7 +442,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
     border: none;
     border-image: none;
 }
@@ -467,7 +467,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
     border: none;
     box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.4);
     border-image: none;
@@ -490,14 +490,14 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
 }
 
 .hotplug-resident-eject-button:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
 }
 
 /* fix for media player extension buttons */
@@ -539,7 +539,7 @@ StScrollBar StButton#hhandle:active {
 .modal-dialog StEntry {
     caret-color: #666;
     caret-size: 1px;
-    selection-background-color: #13b1d5;
+    selection-background-color: #199ab7;
     selected-color: #eee;
     padding: 5px 12px 6px;
     box-shadow: none;
@@ -630,7 +630,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     height: 32px;
     transition-duration: 100ms;
-    box-shadow: 0 1.5px 3px rgba(0, 0, 0, .4);
+    /* box-shadow: 0 1.5px 3px rgba(0, 0, 0, .4); */
 }
 
 #panel.in-overview,
@@ -753,17 +753,18 @@ StScrollBar StButton#hhandle:active {
 .panel-button:hover:overview {
     color: #eee;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #2e333a;
+    border-color: #2e333a;
     text-shadow: none;
+    transition-duration: 500ms;
 }
 
 .panel-button:active,
 .panel-button:focus {
     color: #eee;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
     border-image: none;
     text-shadow: none;
 }
@@ -780,8 +781,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .panel-button:active > .system-status-icon,
@@ -814,15 +815,15 @@ StScrollBar StButton#hhandle:active {
 
 .system-switch-user-submenu-icon {
     icon-size: 24px;
-    border: 1px solid #8b8b8b;
+    border: 0px solid #8b8b8b;
 }
 
 .system-menu-action {
     color: #eee;
     border-radius: 32px; /* wish we could do 50% */
     padding: 13px;
-    background-color: #31363d;
-    border: 1px solid #31363d; /* using rgba() is flaky unfortunately */
+    background-color: #505359;
+    border: 1px solid #505359; /* using rgba() is flaky unfortunately */
 }
 
 .system-menu-action:hover,
@@ -830,8 +831,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 /*
@@ -852,8 +853,8 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
     box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -894,7 +895,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 }
 
 .workspace-thumbnail-indicator {
-    border: 2px solid #13b1d5;
+    border: 2px solid #199ab7;
     border-radius: 4px;
     padding: 1px;
 }
@@ -919,7 +920,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 .window-close, .notification-close {
     background-image: url("close-window.svg");
     background-size: 28px;
-    background-color: #13b1d5;
+    background-color: #199ab7;
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 16px;
     height: 28px;
@@ -931,7 +932,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 }
 
 .window-clone-border {
-    border: 2px solid #13b1d5;
+    border: 2px solid #199ab7;
     border-radius: 4px;
 }
 
@@ -1282,7 +1283,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 .app-well-app-running-dot {
     width: 64px;
     height: 3px;
-    background-color: #11aa88;
+    background-color: #199ab7;
     margin-bottom: 2px;
 }
 
@@ -1305,8 +1306,8 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     border-radius: 4px;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
     border-image: none;
     transition-duration: 100ms;
     text-shadow: rgba(0, 0, 0, .6) .5px 1.5px 1px;
@@ -1341,8 +1342,8 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
     transition-duration: 100ms;
 }
 
@@ -1364,8 +1365,8 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 /* LookingGlass */
@@ -1412,7 +1413,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 }
 
 .lg-dialog StEntry {
-    selection-background-color: #13b1d5;
+    selection-background-color: #199ab7;
     selected-color: #eee;
 }
 
@@ -1582,14 +1583,14 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
 }
 
 .calendar-day-base:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
 }
 
 .calendar-day-heading {
@@ -1627,7 +1628,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 }
 
 .calendar-today {
-    color: #13b1d5;
+    color: #199ab7;
     text-shadow: none;
     font-weight: bold;
 }
@@ -1636,7 +1637,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #11aa89;
+    background-color: #199ab7;
 }
 
 .calendar-day-with-events {
@@ -1907,8 +1908,8 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .hotplug-resident-mount-label {
@@ -1998,8 +1999,8 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .summary-source-button:focus .summary-source,
@@ -2021,7 +2022,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 
     color: #eee;
     background-image: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
     border: 2px solid #eee;
     border-radius: 2.1em;
     font-size: 10pt;
@@ -2096,15 +2097,15 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 
 .switcher-list .item-box:outlined {
     padding: 6px;
-    border: 1px solid #13b1d5;
+    border: 1px solid #199ab7;
 }
 
 .switcher-list .item-box:selected {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .switcher-list .thumbnail-box {
@@ -2139,7 +2140,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 
 .switcher-arrow:highlighted {
     border-color: transparent;
-    color: #13b1d5;
+    color: #199ab7;
 }
 
 /* Workspace Switcher */
@@ -2168,7 +2169,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 .ws-switcher-active-up {
     height: 100px;
     border: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
     background-image: url("ws-switch-arrow-up.png");
     border-radius: 4px;
 }
@@ -2176,7 +2177,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 .ws-switcher-active-down {
     height: 100px;
     border: none;
-    background-color: #13b1d5;
+    background-color: #199ab7;
     background-image: url("ws-switch-arrow-down.png");
     border-radius: 4px;
 }
@@ -2191,7 +2192,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 /* Tile previews */
 .tile-preview {
     background-color: rgba(17, 170, 136, .3);
-    border: 1px solid #13b1d5; /* theme selected bg color */
+    border: 1px solid #199ab7; /* theme selected bg color */
 }
 
 .tile-preview-left.on-primary {
@@ -2217,7 +2218,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 .end-session-dialog-subject {
     font-size: 12pt;
     font-weight: bold;
-    color: #13b1d5;
+    color: #199ab7;
 }
 
 .modal-dialog {
@@ -2422,7 +2423,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 }
 
 .show-processes-dialog-app-list-item:hover {
-    color: #13b1d5;
+    color: #199ab7;
 }
 
 .show-processes-dialog-app-list-item:ltr {
@@ -2463,7 +2464,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 .prompt-dialog-headline {
     font-size: 12pt;
     font-weight: bold;
-    color: #13b1d5;
+    color: #199ab7;
 }
 
 .prompt-dialog-description:rtl {
@@ -2584,16 +2585,16 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .keyboard-key:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .keyboard-subkeys {
@@ -2632,13 +2633,13 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 .candidate-box:selected {
     border-radius: 4px;
     color: #eee;
-    background-color: #13b1d5;
+    background-color: #199ab7;
 }
 
 .candidate-box:hover {
     border-radius: 4px;
     color: #eee;
-    background-color: #13b1d5;
+    background-color: #199ab7;
 }
 
 .candidate-page-button-box {
@@ -2675,7 +2676,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 }
 
 .framed-user-icon:hover {
-    border: 1px solid #13b1d5;
+    border: 1px solid #199ab7;
 }
 
 .login-dialog-banner {
@@ -2732,7 +2733,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:focus {
     color: #eee;
-    background-color: #13b1d5;
+    background-color: #199ab7;
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in {
@@ -2829,24 +2830,24 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .login-dialog .modal-dialog-button:default:focus {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .login-dialog .modal-dialog-button:default:hover {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .login-dialog .modal-dialog-button:default:active,
@@ -2854,8 +2855,8 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #13b1d5;
-    border-color: #13b1d5;
+    background-color: #199ab7;
+    border-color: #199ab7;
 }
 
 .login-dialog .modal-dialog-button:default:insensitive {
